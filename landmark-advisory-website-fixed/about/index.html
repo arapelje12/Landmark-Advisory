@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Landmark Advisory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<style>
+.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:6rem;align-items:start}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:3rem}}
+.lead{font-size:1.08rem;color:var(--text-secondary);font-weight:300;line-height:1.95;margin-bottom:1.5rem}
+.gold-rule{width:48px;height:1px;background:var(--gold);margin:1.5rem 0}
+.aside-stack{display:flex;flex-direction:column;gap:1rem}
+.aside-card{background:var(--card-bg);border:0.5px solid var(--card-border);border-radius:var(--radius);padding:1.35rem 1.5rem}
+.aside-card h4{font-size:0.65rem;color:var(--gold);text-transform:uppercase;letter-spacing:.15em;margin-bottom:.4rem;font-weight:500}
+.aside-card p{font-size:.875rem;color:var(--text-secondary);font-weight:300;line-height:1.75}
+.values-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem}
+.value-card{background:var(--card-bg);border:0.5px solid var(--card-border);border-radius:var(--radius-lg);padding:2rem}
+.value-card .vi{font-size:1.5rem;display:block;margin-bottom:1rem}
+.value-card h3{margin-bottom:.6rem}
+.value-card p{font-size:.875rem;color:var(--text-secondary);font-weight:300;line-height:1.85}
+.creds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.75rem}
+.cred-item{background:var(--card-bg);border:0.5px solid var(--card-border);border-radius:var(--radius);padding:1.1rem 1.35rem;display:flex;align-items:center;gap:.85rem}
+.cred-check{width:26px;height:26px;border-radius:50%;background:var(--gold-dim);border:0.5px solid var(--gold-border);display:flex;align-items:center;justify-content:center;font-size:.7rem;color:var(--gold);flex-shrink:0}
+.cred-item span{font-size:.85rem;font-weight:300;color:var(--text-secondary)}
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="logo">Landmark<span> Advisory</span><span class="logo-sub">Federal Consulting · Est. 2026</span></a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../services/index.html">Services</a></li>
+    <li><a href="index.html" class="active">About</a></li>
+    <li><a href="../contact/index.html">Contact</a></li>
+  </ul>
+  <a href="../contact/index.html" class="nav-cta">Get in Touch</a>
+</nav>
+<div class="page-hero">
+  <div class="grid-bg"></div>
+  <div style="position:relative;z-index:1;">
+    <p class="section-label">Who We Are</p>
+    <h1 style="max-width:700px;">A firm built for<br><span class="accent">government work.</span></h1>
+  </div>
+</div>
+
+<section>
+  <div class="about-grid">
+    <div>
+      <p class="lead">Landmark Advisory is a Canadian consulting firm founded on a straightforward belief: that government departments deserve partners who understand their world — the procurement rules, the policy frameworks, the accountability structures, and the genuine complexity of delivering in the public interest.</p>
+      <p class="lead">Our practice spans technology strategy, policy research, organizational management, learning design, and strategic communications. We work across federal departments and agencies, bringing the same rigour to a plain language rewrite as to a departmental AI strategy.</p>
+      <div class="gold-rule"></div>
+      <p style="font-size:.95rem;color:var(--text-secondary);font-weight:300;line-height:1.95;">We're based in Hamilton, Ontario, and operate as a fully Canadian-owned and operated company — positioned to meet Buy Canadian requirements and committed to building Canadian capacity in public sector consulting.</p>
+    </div>
+    <div class="aside-stack">
+      <div class="aside-card"><h4>Established</h4><p>Landmark Advisory Inc. is incorporated in Ontario, Canada, with a mandate focused entirely on federal public sector advisory services.</p></div>
+      <div class="aside-card"><h4>Location</h4><p>Hamilton, Ontario — with capacity to work on-site across the National Capital Region and federal offices nationwide.</p></div>
+      <div class="aside-card"><h4>Procurement Registration</h4><p>Registered on SAP Business Network (CanadaBuys), ProServices, and TBIPS/SBIPS supply arrangements. Procurement Business Number (PBN) issued.</p></div>
+      <div class="aside-card"><h4>Languages</h4><p>Consulting services delivered in both official languages. English and French deliverables available for all practice areas.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <p class="section-label">Our Principles</p>
+  <h2>What we stand for.</h2>
+  <p class="section-intro">Four commitments that shape how we approach every engagement — from the first conversation to final delivery.</p>
+  <div class="values-grid">
+    <div class="value-card"><span class="vi">🎯</span><h3>Outcomes over activity</h3><p>We measure success by what clients can do with our work — not by hours billed or pages produced. Every deliverable is designed to be used, not filed.</p></div>
+    <div class="value-card"><span class="vi">📐</span><h3>Uncompromising quality</h3><p>Our work is reviewed against a high bar before it reaches a client. Accuracy, coherence, and strategic alignment are non-negotiable — always.</p></div>
+    <div class="value-card"><span class="vi">🤝</span><h3>Genuine partnership</h3><p>We work alongside our clients, not at arm's length. Accessible, responsive, and invested in the success of the mandate — not just the contract.</p></div>
+    <div class="value-card"><span class="vi">🔎</span><h3>Intellectual rigour</h3><p>We bring critical thinking to every file — questioning assumptions, stress-testing recommendations, and ensuring our advice reflects the best available evidence.</p></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <p class="section-label">Supplier Credentials</p>
+  <h2>Ready to work with you.</h2>
+  <p class="section-intro">Landmark holds the registrations required to bid on Government of Canada contracts across a wide range of procurement vehicles.</p>
+  <div class="creds-grid">
+    <div class="cred-item"><div class="cred-check">✓</div><span>SAP Business Network (CanadaBuys) registered</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>Procurement Business Number (PBN) issued</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>TBIPS supply arrangement qualified</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>SBIPS supply arrangement qualified</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>ProServices pre-qualified</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>Reliability Status eligible</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>Buy Canadian Policy compliant</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>Federal Contractors Program compliant</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>MERX and Biddingo registered</span></div>
+    <div class="cred-item"><div class="cred-check">✓</div><span>Bilingual service delivery (EN/FR)</span></div>
+  </div>
+</section>
+
+<section style="background:var(--ink-mid);border-top:0.5px solid rgba(200,151,60,0.12);text-align:center;">
+  <p class="section-label">Work With Us</p>
+  <h2>Let's build something together.</h2>
+  <p style="color:var(--text-secondary);font-size:1rem;font-weight:300;max-width:480px;margin:0 auto 2.5rem;line-height:1.95;">Whether you have a specific procurement or want to explore how Landmark fits your mandate, we'd like to hear from you.</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="../contact/index.html" class="btn-primary">Contact Us</a>
+    <a href="../services/index.html" class="btn-outline">Our Services</a>
+  </div>
+</section>
+
+<footer>
+  <a href="../index.html" class="logo" style="font-size:1.15rem;">Landmark<span> Advisory</span></a>
+  <div class="footer-links">
+    <a href="../index.html">Home</a><a href="../services/index.html">Services</a>
+    <a href="index.html">About</a><a href="../contact/index.html">Contact</a>
+  </div>
+  <span class="footer-legal">© 2026 Landmark Advisory Inc. · Hamilton, Ontario, Canada</span>
+</footer>
+</body>
+</html>
